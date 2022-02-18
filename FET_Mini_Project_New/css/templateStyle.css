@@ -1,0 +1,105 @@
+#cv-form {
+    /* display: none; */
+}
+
+#cv-template {
+    display: none;
+
+}
+
+#cv-template2 {
+    display: none;
+
+}
+
+#cv-template3 {
+    display: none;
+
+}
+
+/* image edit */
+.myImg {
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.background {
+    background-color: #D3ECA7;
+}
+
+.background2 {
+    background-color: rgb(172, 102, 212);
+    font-family: 'Supermercado One', cursive;
+}
+
+.background3 {
+    background-color: rgb(202, 187, 211);
+    font-family: 'Supermercado One', cursive;
+}
+
+.background6 {
+    background-color: #A1B57D;
+}
+
+.background4 {
+    background-color: rgba(77, 75, 78, 0.897);
+    font-family: 'Supermercado One', cursive;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
+
+.background5 {
+    background-color: rgb(253, 253, 253);
+    font-family: 'Dancing Script', cursive;
+}
+
+.displayImg {
+    width: 200cm;
+    height: 400px;
+    border: 3px dotted #A1B57D;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.myTable {
+    background-color: rgb(202, 185, 218);
+
+}
+
+.myTable2 {
+    background-color: rgb(202, 185, 218);
+
+}
+
+.myHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+}
+
+.myHeader:hover {
+    font-family: fantasy;
+    color: white;
+}
+
+/* body {
+    background: -webkit-linear-gradient(left, #e9e9ff 20px, transparent 1%) center, -webkit-linear-gradient(#e9e9ff 20px, transparent 1%) center, #e9e9ff;
+    background: linear-gradient(90deg, #e9e9ff 20px, transparent 1%) center, linear-gradient(#e9e9ff 20px, transparent 1%) center, #e9e9ff;
+    background-size: 22px 22px;
+} */
+
+@media print {
+    body *{
+        visibility: hidden;
+    }
+
+    .print-area *{
+        visibility: visible;
+    }
+
+    .print-area{
+        zoom: 90%;
+    }
+}

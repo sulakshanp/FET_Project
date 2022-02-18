@@ -1,0 +1,128 @@
+{
+  "employees": [
+    {
+      "name": "Shreyansh Mani Tripathi",
+      "username": "Shreyansh",
+      "password": "Shreyansh",
+      "email": "shreyansh@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Sulakshan",
+      "username": "Sulakshan",
+      "password": "Sulakshan",
+      "email": "sulakshan@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Shraddha",
+      "username": "Shraddha",
+      "password": "shraddha",
+      "email": "shraddha@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Soham",
+      "username": "soham",
+      "password": "soham123",
+      "email": "soham@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Vilas",
+      "email": "vilas@gmail.com",
+      "username": "vilas",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "tom Hiddlestone",
+      "email": "tom@gmail.com",
+      "username": "Tom",
+      "password": "tom",
+      "id": 6
+    },
+    {
+      "name": "Thor",
+      "email": "thor@cybage.com",
+      "username": "thor",
+      "password": "thor",
+      "id": 7
+    },
+    {
+      "name": "Bruce Wayne",
+      "email": "bruce@gmail.com",
+      "username": "Bruce",
+      "password": "bruce123",
+      "id": 8
+    },
+    {
+      "name": "Logan",
+      "email": "logan@gmail.com",
+      "username": "Logan",
+      "password": "logan123",
+      "id": 9
+    },
+    {
+      "name": "Tony Stark",
+      "email": "tony@gmail.com",
+      "username": "Tony",
+      "password": "tony123",
+      "id": 10
+    },
+    {
+      "name": "Barry Allen",
+      "email": "barry@gmail.com",
+      "username": "Barry",
+      "password": "barry123",
+      "id": 11
+    },
+    {
+      "name": "Sritam Das",
+      "email": "sritam@gmail.com",
+      "username": "Sritam",
+      "password": "sritam123",
+      "id": 12
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "username": "admin123",
+      "password": "123",
+      "id": 13
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "username": "admin",
+      "password": "admin",
+      "id": 14
+    },
+    {
+      "name": "Nilesh",
+      "email": "nilesh@sunbeaminfo.com",
+      "username": "nilesh",
+      "password": "nilesh",
+      "id": 15
+    },
+    {
+      "name": "sud",
+      "email": "sud@gmail.com",
+      "username": "sud",
+      "password": "1234",
+      "id": 16
+    }
+  ],
+  "Template1": {
+    "id": 1,
+    "count": 46
+  },
+  "Template2": {
+    "id": 1,
+    "count": 27
+  },
+  "Template3": {
+    "id": 1,
+    "count": 21
+  }
+}

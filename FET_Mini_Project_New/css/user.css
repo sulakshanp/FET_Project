@@ -1,0 +1,50 @@
+#navbar{
+    background-color: lightgreen;
+}
+
+.select{
+    text-align: center;
+    color: white;
+   
+}
+
+.container-select{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    
+        font-style: italic;
+    
+}
+h1{
+    text-align: left;
+    color: white;
+
+}
+.content{
+
+    height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+img{
+    width: 250px;
+    height: 300px;
+}
+
+.click{
+    text-align: center;
+}
+body{
+    background: url(../images/o.jpg);
+    
+  }
+  

@@ -1,0 +1,112 @@
+@media print {
+
+    #cv-form{
+        /* display: none; */
+    }
+    
+    #cv-template{
+        display: none;
+    
+    }
+    
+    #cv-template2{
+        display: none;
+    
+    }
+    
+    #cv-template3{
+        display: none; 
+    
+    }
+    
+    /* image edit */
+    .myImg{
+       border: 2px solid grey;
+       border-radius: 50%;
+       width: 200px;
+    }
+    
+    .background {
+        background-color: #D3ECA7;
+    }
+    .background2 {
+        background-color: rgb(172, 102, 212);
+        font-family: 'Supermercado One', cursive;
+    }
+    
+    .background3 {
+        background-color: rgb(202, 187, 211);
+        font-family: 'Supermercado One', cursive;
+    }
+    .background6{
+        background-color: #A1B57D;
+    }
+    
+    .background4 {
+        background-color: rgba(77, 75, 78, 0.897);
+        font-family: 'Supermercado One', cursive;
+        color: aliceblue;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .background5 {
+        background-color: rgb(253, 253, 253);
+        font-family: 'Dancing Script', cursive;
+    }
+    .displayImg{
+        width: 200cm;
+        height: 400px;
+        border: 3px dotted #A1B57D;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    .myTable{
+       background-color: rgb(202, 185, 218);
+       
+    }
+    
+    .myTable2{
+        background-color: rgb(202, 185, 218);
+        
+     }
+    
+     .myHeader{
+         font-family: fantasy;
+     }
+    
+     .myHeader:hover{
+        font-family: fantasy;
+         color: white;
+     }
+    
+     /* body{
+        background: -webkit-linear-gradient(left, #7577FA 20px, transparent 1%) center, -webkit-linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+      background: linear-gradient(90deg, #7577FA 20px, transparent 1%) center, linear-gradient(#7577FA 20px, transparent 1%) center, #9192FB;
+      background-size: 22px 22px;
+     }
+     */
+     
+    
+    
+    
+    
+    
+   }
+
+   body{
+    background: url(../images/o.jpg);
+    
+  }
+
+  #print{
+      /*display: none;*/
+      position: absolute;
+      top: 1%;
+      left: 45%;
+  }
+
+  #navbar1{
+      display: none;
+  }

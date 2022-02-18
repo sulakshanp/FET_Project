@@ -1,0 +1,18 @@
+img{
+    width: 30%;
+    height: 30%;
+}
+
+.back{
+    margin-top: 15px;
+    background-color: rgb(216,205,205);
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+body{
+
+    background: url(../images/o.jpg);
+}

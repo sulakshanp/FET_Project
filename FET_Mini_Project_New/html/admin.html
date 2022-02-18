@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="../images/logo.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Admin</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="../images/logo.png" alt="Admin panel logo" class="nav__logo" id="logo" />
+            <h4>Welcome back, Admin!</h4>
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--2">Report</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--1">Templates</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#section--3"></a>
+                </li>
+                <li class="nav__item">
+                    <button class=" btn btn-light" id="signoutbutton" onclick="callSignout()">Sign out</button>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="header__title">
+            <h1>
+                Manage your
+                <br />
+                <!-- Green highlight effect -->
+                <span class="highlight">Resume Generator App</span>
+                <!-- is now --><br /><br />
+                <span class="highlight2">Dashboard</span>
+            </h1>
+            <h4>Manage the Resume templates and Report</h4>
+            <button class="btn--text btn--scroll-to">View & DownArrow;</button>
+            <img src="../images/adminlogo.png" class="header__img" alt="Minimalist bank items" />
+        </div>
+    </header>
+
+    <section class="section section_color1" id="section--2">
+
+        <div id="section3" class="main_content mt-2">
+            <div class="container">
+                <div class="row">
+                    <div id="total1">total Downloads
+                    </div>
+                    <div id="total2">total Downloads
+                    </div>
+                    <div id="total3">total Downloads
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="section__title">
+        <h2 class="section__description">Report</h2>
+        <h3 class="section__header highlight">Number of downloads for each template</h3>
+      </div> -->
+        <!-- </div> -->
+        <div style="border: 2px solid black;">
+            <canvas id="myChart" style="width: 800px; max-width: 800px; align-content: center;"></canvas>
+        </div>
+
+    </section>
+
+    <section class="sectionTemp" id="section--1">
+        <div class="section__title">
+            <h2 class="section__description">Templates</h2>
+            <h3 class="section__header highlight2">Templates shown to the Users:</h3>
+        </div>
+
+
+        <div class="container">
+
+            <div class="box temp1">
+                <img src="../images/template1.jpg" class="imgi" />
+                <div class="overlay">
+                    <button class="btn1 button" id="btnOne">Delete</button>
+                </div>
+            </div>
+
+            <div class="box temp2">
+                <img src="../images/template2.jpg" class="imgi" />
+                <div class="overlay">
+                    <button class="btn1 button" id="btnTwo">Delete</button>
+                </div>
+            </div>
+
+            <div class="box temp3">
+                <img src="../images/template3.jpeg" class="imgi" />
+                <div class="overlay">
+                    <button class="btn1 button" id="btnThree">Delete</button>
+                </div>
+            </div>
+
+            <div class="box temp4">
+                <img src="../images/template4.jpg" class="imgi" />
+                <div class="overlay">
+                    <button class="btn1 button" id="btnFour">Delete</button>
+                </div>
+            </div>
+
+            <div class="box temp5">
+                <img src="../images/cv1.jpg" class="imgi" />
+                <div class="overlay">
+                    <button class="btn1 button" id="btnFour">Delete</button>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="box temp5">
+          <img src="../img/tempy1.webp" class="imgi" />
+          <div class="overlay">
+          <button class="btn1 button" id="btnFive">Delete</button>
+          </div>
+        </div> -->
+            <div class="box">
+                <button style="width: 100px; height: 50px;">Add</button>
+            </div>
+            <div class="box">
+                <button style="width: 100px; height: 50px;">Add</button>
+            </div>
+        </div>
+
+        </div>
+
+        <!-- <div class="container">
+          
+        <div class="box">
+            <img src="../img/tempy1.webp" class="imgi" />
+            <div class="overlay">
+              <button class="btn1 button">Delete</button>
+            </div>
+          </div>
+        
+        <div class="box">
+          <img src="../img/tempy1.webp" class="imgi" />
+            <div class="overlay">
+          <button class="btn1 button">Delete</button>
+        </div>
+        </div>
+
+        <div class="box">
+          <img src="../img/tempy1.webp" class="imgi" />
+          <div class="overlay">
+          <button class="btn1 button">Delete</button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="../img/tempy1.webp" class="imgi" />
+          <div class="overlay">
+          <button class="btn1 button">Delete</button>
+          </div>
+        </div>
+        <div class="box">
+  
+            <button style="width: 100px; height: 50px;">Add</button>
+          </div>
+        <div class="box">
+            <button style="width: 100px; height: 50px;">Add</button>
+        </div>
+      </div>
+     
+    </div> -->
+
+    </section>
+
+
+
+    <section class="section_last section--sign-up">
+        <div class="section__title">
+            <h3 class="section__header">
+                Resume-Generator Admin
+            </h3>
+        </div>
+        <button class=" btn btn-light" id="signoutbutton" onclick="callSignout()">Sign out</button>
+    </section>
+
+    <footer class="footer">
+        <ul class="footer__nav">
+            <li class="footer__item">
+                <a class="footer__link" href="#">About</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Pricing</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Terms of Use</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Blog</a>
+            </li>
+            <li class="footer__item">
+                <a class="footer__link" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <img src="../images/logo.png" alt="Logo" class="footer__logo" />
+        <p class="footer__copyright">
+            &copy; Copyright by FET-Angular Group 6
+            <a class="footer__link twitter-link" target="_blank" href="#">2022</a
+        >.&nbsp;&nbsp;Resume-Generator App. All Rights reserved.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/admin.js"></script>
+    <script src="../js/graph.js"></script>
+    
+  </body>
+</html>
